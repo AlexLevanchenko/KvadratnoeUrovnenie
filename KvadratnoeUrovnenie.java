@@ -14,7 +14,7 @@ public class KvadratnoeUrovnenie {
         c = input.nextDouble();
         final double discrimenant = b * b - 4 * a * c;
         if (a <= 0) {
-            System.out.println("Если a = 0 уровнение стает линейным");
+            System.out.println("Если значение a меньше или равно 0, уровнение стает линейным");
         } else if (a > 0) {
             if (discrimenant == 0) {
                 x1 = (-b) / (2 * a);
